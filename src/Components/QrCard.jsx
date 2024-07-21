@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const QrCard = () =>{
 
-    const [Img,setImg] = useState("/qrcodechimp.png")
+    const [Img,setImg] = useState("qrcodechimp.png")
     const [Size, setSize] = useState("150")
     const [Data, setData] = useState("")
 
